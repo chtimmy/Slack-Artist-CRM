@@ -1,0 +1,35 @@
+# Environment + secrets
+.env
+.env.*
+*.env
+server/.env
+server/.env.*
+!server/.env.example
+
+# Google OAuth tokens (per-account; sensitive)
+.google_token*.json
+tools/.google_token*.json
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+venv/
+.venv/
+
+# Local temp / generated
+.tmp/
+*.log
+*.bak
+
+# OS / editor
+.DS_Store
+**/.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,23 @@
+# Artist CRM — Slack bot + Claude intent classification + Google Sheets backend
+
+# Google Sheets + Drive (OAuth, API client)
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+google-api-python-client==2.129.0
+
+# Claude — intent classification (Haiku) + artist summaries (Sonnet)
+anthropic>=0.28.0
+
+# server/.env loading
+python-dotenv==1.0.1
+
+# Slack file downloads (url_private_download)
+requests==2.32.3
+
+# Slack bot (Socket Mode); slack_sdk ships with slack_bolt
+slack_bolt>=1.18.0
+slack_sdk>=3.21.0
+
+# Fuzzy artist-name lookup
+rapidfuzz>=3.6.0
